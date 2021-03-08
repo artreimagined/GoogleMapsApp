@@ -9,7 +9,8 @@ function initMap() {
 
     let image = {
         url: '/pointer.png',
-        scaledSize: new google.maps.Size(30, 30)};
+        scaledSize: new google.maps.Size(30, 30)
+    };
 
     let marker = new google.maps.Marker({
        position: coords,
